@@ -1,4 +1,3 @@
-
 package PageObjects;
 
 import org.openqa.selenium.By;
@@ -39,16 +38,24 @@ public class newAccount {
             /**
              * Select ByIndex tiene dos opciones 0 o 1
              */
-            acco.selectByIndex(0);
+            acco.selectByIndex(1);
             Thread.sleep(3000);
 
             /**
              * Puedes seleccionar Savings o Current
              */
-            acco.selectByValue("Savings");
+            acco.selectByValue("Current");
         } catch (Exception e) {
             System.out.println(e);
         }
+    }
+
+    public void clickSelectedTypeAccount() {
+        driver.findElement(selaccount).click();
+    }
+
+    public String getValueTypeAccount() {
+        return driver.findElement(selaccount).getAttribute("value");
     }
 
     public void setInitialDeposit(String strInideposit) {
@@ -59,12 +66,12 @@ public class newAccount {
         driver.findElement(button2).click();
     }
 
-
-
     public void AccountApp(String cusid, String inideposit) {
         this.linkAccount();
         this.setAccountId(cusid);
-        this.selectedTypeAccount();
+         this.selectedTypeAccount();
+        //this.clickSelectedTypeAccount();
+        //this.getValueTypeAccount();
         this.setInitialDeposit(inideposit);
         this.clickSubmit();
     }

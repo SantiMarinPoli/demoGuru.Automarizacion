@@ -44,7 +44,7 @@ public class newCustomer {
         try {
             WebElement btnMale = driver.findElement(By.xpath("/html/body/table/tbody/tr/td/table/tbody/tr[5]/td[2]/input[1]"));
             WebElement btnFemale = driver.findElement(By.xpath("/html/body/table/tbody/tr/td/table/tbody/tr[5]/td[2]/input[2]"));
-            String genderSelected = "female";
+            String genderSelected = "male";
 
             if (genderSelected.equalsIgnoreCase("male")) {
                 btnMale.click();
@@ -84,6 +84,10 @@ public class newCustomer {
     public void setEmail(String strEmail) {
         driver.findElement(emailid).sendKeys(strEmail);
     }
+    
+    public String valueEmail(){
+        return driver.findElement(emailid).getAttribute("value");
+    }
 
     public void setPassword(String strPass) {
         driver.findElement(pass).sendKeys(strPass);
@@ -106,6 +110,7 @@ public class newCustomer {
         this.setPin(pinno);
         this.setMobileNumber(telephoneno);
         this.setEmail(emailid);
+        this.valueEmail();
         this.setPassword(pass);
         this.clickSubmit();
     }

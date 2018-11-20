@@ -13,17 +13,16 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+
 import PageObjects.login;
-import PageObjects.FlightDetails;
 import PageObjects.deposit;
 import PageObjects.newAccount;
 import PageObjects.newCustomer;
 import PageObjects.withdrawal;
-import javax.xml.xpath.XPath;
+import org.openqa.selenium.Alert;
 
 /**
  *
@@ -64,16 +63,17 @@ public class SeleniumPracticeTest {
 
     /**
      * Test of main method, of class SeleniumPractice.
+     * @throws java.lang.InterruptedException
      */
     @Test
-    public void testMain() {
+    public void testMain() throws InterruptedException {
         try {
 
             /**
              * LOGIN
              */
-            String uid = "mngr163423";
-            String password = "vyveqeh";
+            String uid = "mngr163819";
+            String password = "emEtUvA";
 
             log = new login(driver);
             log.ingresarApp(uid, password);
@@ -82,16 +82,18 @@ public class SeleniumPracticeTest {
              * New Customer
              */
             cust = new newCustomer(driver);
-            String name = "Ana";
-            String dob = "15/10/1996";
+            String name = "Julian Largo";
+            String dob = "28/04/1986";
             String addr = "Calle 74 40 55b";
-            String city = "California";
-            String state = "Soltera";
+            String city = "Medellin";
+            String state = "Soltero";
             String pinno = "232323";
             String telephoneno = "316841";
-            String emailid = "anamarin@hotmail.com";
-            String pass = "ana";
+            String emailid = "julian-largo@hotmail.com";
+            String pass = "julian123";
+
             cust.customerApp(name, dob, addr, city, state, pinno, telephoneno, emailid, pass);
+
             String getCustomerId = driver.findElement(By.xpath("//*[@id=\"customer\"]/tbody/tr[4]/td[2]")).getText();
             System.out.println("ID Customer: " + getCustomerId);
             Thread.sleep(5000);
@@ -134,8 +136,19 @@ public class SeleniumPracticeTest {
             System.out.println("Current Balance: " + getCurrent2);
             driver.quit();
 
-        } catch (Exception e) {
+        } catch (InterruptedException e) {
+            if (!cust.equals(false)) {
+                System.out.println("Mensaje de Alerta");
+                Alert alerta = driver.switchTo().alert();
+                String alertaStr = driver.switchTo().alert().getText();
+                System.out.println(alertaStr);
+                Thread.sleep(5000);
+                alerta.accept();
+            }
+
+            System.out.println("Mensaje de Exception");
             System.out.println(e);
+
         }
 
     }

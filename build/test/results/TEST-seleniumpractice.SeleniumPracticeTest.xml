@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="URIEL-PC" name="seleniumpractice.SeleniumPracticeTest" skipped="0" tests="1" time="70.07" timestamp="2018-11-17T00:25:53">
+<testsuite errors="0" failures="0" hostname="URIEL-PC" name="seleniumpractice.SeleniumPracticeTest" skipped="0" tests="1" time="130.808" timestamp="2018-11-20T02:20:48">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="ES" />
@@ -14,7 +14,7 @@
     <property name="ant.core.lib" value="C:\Program Files\NetBeans 8.2\extide\ant\lib\ant.jar" />
     <property name="javadoc.windowtitle" value="" />
     <property name="libs.jsp-compilation.javadoc" value="" />
-    <property name="user.dir" value="C:\Users\FAMILIA\Videos\Documents\PPI\garantizar" />
+    <property name="user.dir" value="C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion" />
     <property name="libs.javaee-api-7.0.src" value="" />
     <property name="java.vm.version" value="25.181-b13" />
     <property name="libs.DataBindingME.classpath" value="C:\Program Files\NetBeans 8.2\mobility\modules\ext\netbeans_databindingme.jar" />
@@ -66,7 +66,7 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner seleniumpractice.SeleniumPracticeTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\build\test\results\TEST-seleniumpractice.SeleniumPracticeTest.xml crashfile=C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\build\junitvmwatcher4095457946817250528.properties propsfile=C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\build\junit8501548564572133103.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner seleniumpractice.SeleniumPracticeTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\build\test\results\TEST-seleniumpractice.SeleniumPracticeTest.xml crashfile=C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\build\junitvmwatcher984289660610052829.properties propsfile=C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\build\junit6775849005591384848.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -137,7 +137,7 @@
     <property name="libs.spring-framework400.src" value="" />
     <property name="libs.PostgreSQLDriver.src" value="" />
     <property name="sun.arch.data.model" value="32" />
-    <property name="basedir" value="C:\Users\FAMILIA\Videos\Documents\PPI\garantizar" />
+    <property name="basedir" value="C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion" />
     <property name="libs.jpa20-persistence.maven-pom" value="" />
     <property name="jar.compress" value="false" />
     <property name="libs.javaee-web-api-7.0.classpath" value="C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee-web-api-7.0.jar" />
@@ -185,7 +185,7 @@
     <property name="libs.spring-webmvc4.0.maven-pom" value="" />
     <property name="libs.spring-framework300.src" value="" />
     <property name="libs.jstl.src" value="" />
-    <property name="empty.dir" value="C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\build\empty" />
+    <property name="empty.dir" value="C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\build\empty" />
     <property name="version-output" value="java version &quot;1.8" />
     <property name="test.binarytestincludes" value="" />
     <property name="libs.hibernate4-persistencemodelgen.src" value="" />
@@ -203,7 +203,7 @@
     <property name="libs.PostgreSQLDriver.javadoc" value="" />
     <property name="libs.restlib.classpath" value="C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\ext\asm-all-repackaged-2.2.0-b21.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\ext\cglib-2.2.0-b21.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\ext\guava-14.0.1.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\ext\hk2-api-2.2.0-b21.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\ext\hk2-locator-2.2.0-b21.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\ext\hk2-utils-2.2.0-b21.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\ext\javax.annotation-api-1.2.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\ext\javax.inject-2.2.0-b21.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\ext\javax.servlet-api-3.0.1.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\ext\jaxb-api-2.2.7.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\ext\jersey-entity-filtering-2.5.1.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\ext\jersey-media-moxy-2.5.1.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\ext\org.osgi.core-4.2.0.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\ext\osgi-resource-locator-1.0.1.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\ext\persistence-api-1.0.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\ext\validation-api-1.1.0.Final.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\jersey-client.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\jersey-common.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\jersey-container-servlet.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\jersey-container-servlet-core.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jersey2\jersey-server.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\eclipselink\eclipselink.jar" />
     <property name="libs.MySQLDriver.maven-pom" value="" />
-    <property name="ant.file.garantizar" value="C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\build.xml" />
+    <property name="ant.file.garantizar" value="C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\build.xml" />
     <property name="libs.hibernate4-persistence.javadoc" value="C:\Program Files\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
     <property name="http.nonProxyHosts" value="localhost|127.0.0.1|URIEL-PC" />
     <property name="libs.junit_4.javadoc" value="C:\Program Files\NetBeans 8.2\platform\docs\junit-4.12-javadoc.jar" />
@@ -229,7 +229,7 @@
     <property name="javac.processorpath" value="seleniumLib/byte-buddy-1.8.15.jar:seleniumLib/client-combined-3.14.0-sources.jar:seleniumLib/client-combined-3.14.0.jar:seleniumLib/commons-codec-1.10.jar:seleniumLib/commons-exec-1.3.jar:seleniumLib/commons-logging-1.2.jar:seleniumLib/guava-25.0-jre.jar:seleniumLib/httpclient-4.5.5.jar:seleniumLib/httpcore-4.4.9.jar:seleniumLib/okhttp-3.10.0.jar:seleniumLib/okio-1.14.1.jar" />
     <property name="libs.hamcrest.maven-pom" value="" />
     <property name="javac.compilerargs" value="" />
-    <property name="ant.file" value="C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\build.xml" />
+    <property name="ant.file" value="C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\build.xml" />
     <property name="libs.beans-binding.maven-pom" value="" />
     <property name="libs.hibernate4-support.javadoc" value="C:\Program Files\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
     <property name="libs.jsf12.classpath" value="C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jsf-1_2\commons-beanutils.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jsf-1_2\commons-collections.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jsf-1_2\commons-digester.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jsf-1_2\commons-logging.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jsf-1_2\jsf-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jsf-1_2\jsf-impl.jar" />
@@ -310,14 +310,14 @@
     <property name="libs.jaxb.src" value="" />
     <property name="jdk.launcher.addexports.5" value="java.management/sun.management=ALL-UNNAMED" />
     <property name="jdk.launcher.addexports.4" value="java.desktop/com.sun.java.swing.plaf.windows=ALL-UNNAMED" />
-    <property name="work.dir" value="C:\Users\FAMILIA\Videos\Documents\PPI\garantizar" />
+    <property name="work.dir" value="C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion" />
     <property name="jdk.launcher.addexports.3" value="java.desktop/sun.awt.im=ALL-UNNAMED" />
     <property name="libs.jaxb.classpath" value="C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\jaxb1-impl.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
     <property name="jdk.launcher.addexports.2" value="java.desktop/java.awt.peer=ALL-UNNAMED" />
     <property name="jdk.launcher.addexports.1" value="java.base/jdk.internal.jrtfs=ALL-UNNAMED" />
     <property name="php.global.include.path" value="" />
     <property name="jdk.launcher.addexports.0" value="java.desktop/sun.awt=ALL-UNNAMED" />
-    <property name="ant.file.garantizar-impl" value="C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\nbproject\build-impl.xml" />
+    <property name="ant.file.garantizar-impl" value="C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\nbproject\build-impl.xml" />
     <property name="do.depend" value="false" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="libs.j2me_common_ant.classpath" value="C:\Program Files\NetBeans 8.2\mobility\modules\org-netbeans-modules-j2me-common-ant.jar;C:\Program Files\NetBeans 8.2\java\modules\org-netbeans-modules-classfile.jar" />
@@ -329,13 +329,13 @@
     <property name="build.generated.dir" value="build/generated" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="java.specification.version" value="1.8" />
-    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.vm.info" value="mixed mode" />
     <property name="libs.jaxws21.maven-pom" value="" />
     <property name="nb.junit.batch" value="true" />
     <property name="junit.forkmode" value="perTest" />
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes" />
     <property name="javac.target" value="1.8" />
-    <property name="built-jar.properties" value="C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\build\built-jar.properties" />
+    <property name="built-jar.properties" value="C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\build\built-jar.properties" />
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="src.dir" value="src" />
     <property name="libs.jpa2-persistence.src" value="" />
@@ -385,7 +385,7 @@
     <property name="libs.jpa2-persistence.javadoc" value="C:\Program Files\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
     <property name="libs.DataBindingME.javadoc" value="C:\Program Files\NetBeans 8.2\mobility\modules\docs\netbeans_databindingme-api.zip" />
     <property name="apple.laf.useScreenMenuBar" value="true" />
-    <property name="java.class.path" value="C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\seleniumLib\byte-buddy-1.8.15.jar;C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\seleniumLib\client-combined-3.14.0-sources.jar;C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\seleniumLib\client-combined-3.14.0.jar;C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\seleniumLib\commons-codec-1.10.jar;C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\seleniumLib\commons-exec-1.3.jar;C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\seleniumLib\commons-logging-1.2.jar;C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\seleniumLib\guava-25.0-jre.jar;C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\seleniumLib\httpclient-4.5.5.jar;C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\seleniumLib\httpcore-4.4.9.jar;C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\seleniumLib\okhttp-3.10.0.jar;C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\seleniumLib\okio-1.14.1.jar;C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\build\classes;C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar;C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar;C:\Users\FAMILIA\Videos\Documents\PPI\garantizar\build\test\classes;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-junit4.jar" />
+    <property name="java.class.path" value="C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\seleniumLib\byte-buddy-1.8.15.jar;C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\seleniumLib\client-combined-3.14.0-sources.jar;C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\seleniumLib\client-combined-3.14.0.jar;C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\seleniumLib\commons-codec-1.10.jar;C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\seleniumLib\commons-exec-1.3.jar;C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\seleniumLib\commons-logging-1.2.jar;C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\seleniumLib\guava-25.0-jre.jar;C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\seleniumLib\httpclient-4.5.5.jar;C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\seleniumLib\httpcore-4.4.9.jar;C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\seleniumLib\okhttp-3.10.0.jar;C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\seleniumLib\okio-1.14.1.jar;C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\build\classes;C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar;C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar;C:\Users\FAMILIA\Videos\Documents\Prueba\demoGuru.Automarizacion\build\test\classes;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-junit4.jar" />
     <property name="do.mkdist" value="true" />
     <property name="libs.absolutelayout.src" value="" />
     <property name="libs.jpa20-persistence.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\eclipselink\javax.persistence_2.1.0.v201304241213.jar" />
@@ -437,15 +437,17 @@
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
   </properties>
-  <testcase classname="seleniumpractice.SeleniumPracticeTest" name="testMain" time="57.29" />
-  <system-out><![CDATA[ID Customer: 59125
-ID Account: 51694
+  <testcase classname="seleniumpractice.SeleniumPracticeTest" name="testMain" time="97.586" />
+  <system-out><![CDATA[ID Customer: 21998
+ID Account: 52013
 Deposit
 Current Balance: 580000
+Withdrawal
+Current Balance: 330000
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 20515
+  <system-err><![CDATA[Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 48984
 Only local connections are allowed.
-nov 16, 2018 7:26:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+nov 19, 2018 9:21:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
 ]]></system-err>
 </testsuite>
